@@ -10,6 +10,6 @@ if calc == nil then
     error("FATAL ! token calc isnt responded", script, 1)
 end
 
-if stoken = nil then
+if stoken == nil then
    error(" SERVER:FATAL ! script token server isnt responded", script, 3)
 end
